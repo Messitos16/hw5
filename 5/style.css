@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.coom {
+    border: 10px solid red;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    left: 50%;
+    top: 20%;
+    border-top: 10px solid #fff;
+    animation: animate 2s infinite linear;
+    position: absolute;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-20%, 50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-20%, 50%) rotate(360deg);
+    }
+}
